@@ -17,11 +17,11 @@ html {
     align-items: center;
   
     background-image:
-    radial-gradient(circle at 100% 150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
-    radial-gradient(circle at 0    150%, #3BC1AC 24%, #42D2BB 25%, #42D2BB 28%, #3BC1AC 29%, #3BC1AC 36%, #42D2BB 36%, #42D2BB 40%, transparent 40%, transparent),
-    radial-gradient(circle at 50%  100%, #42D2BB 10%, #3BC1AC 11%, #3BC1AC 23%, #42D2BB 24%, #42D2BB 30%, #3BC1AC 31%, #3BC1AC 43%, #42D2BB 44%, #42D2BB 50%, #3BC1AC 51%, #3BC1AC 63%, #42D2BB 64%, #42D2BB 71%, transparent 71%, transparent),
-    radial-gradient(circle at 100% 50%, #42D2BB 5%, #3BC1AC 6%, #3BC1AC 15%, #42D2BB 16%, #42D2BB 20%, #3BC1AC 21%, #3BC1AC 30%, #42D2BB 31%, #42D2BB 35%, #3BC1AC 36%, #3BC1AC 45%, #42D2BB 46%, #42D2BB 49%, transparent 50%, transparent),
-    radial-gradient(circle at 0    50%, #42D2BB 5%, #3BC1AC 6%, #3BC1AC 15%, #42D2BB 16%, #42D2BB 20%, #3BC1AC 21%, #3BC1AC 30%, #42D2BB 31%, #42D2BB 35%, #3BC1AC 36%, #3BC1AC 45%, #42D2BB 46%, #42D2BB 49%, transparent 50%, transparent);
+    radial-gradient(circle at 100% 150%, #c13b85 24%,  #e74aa0 25%, #e74aa0 28%, #c13b85 29%, #c13b85 36%,  #e74aa0 36%,  #e74aa0 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0    150%, #c13b85 24%,  #e74aa0 25%,  #e74aa0 28%,#c13b85 29%, #c13b85 36%,  #e74aa0 36%,  #e74aa0 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%,  #e74aa0 10%,#c13b85 11%,#c13b85 23%,  #e74aa0 24%,  #e74aa0 30%,#c13b85 31%, #c13b85 43%,  #e74aa0 44%,  #e74aa0 50%, #c13b85 51%, #c13b85 63%,  #e74aa0 64%,  #e74aa0 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%,  #e74aa0 5%,#c13b85 6%, #c13b85 15%,  #e74aa0 16%,  #e74aa0 20%,#c13b85 21%,#c13b85 30%,  #e74aa0 31%,  #e74aa0 35%,#c13b85 36%,#c13b85 45%,  #e74aa0 46%,  #e74aa0 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%,  #e74aa0 5%, #c13b85 6%,#c13b85 15%,  #e74aa0 16%,  #e74aa0 20%,#c13b85 21%, #c13b85 30%,  #e74aa0 31%,  #e74aa0 35%, #c13b85 36%, #c13b85 45%,  #e74aa0 46%,  #e74aa0 49%, transparent 50%, transparent);
     background-size:100px 50px;
   }
   
@@ -41,13 +41,13 @@ html {
     width: calc(100% + 4rem);
     margin: -2rem 0 2rem -2rem;
     padding: .5rem;
-    background: #ffc600;
-    border-bottom: 5px solid #F3C010;
+    background: #00a2ff;
+    border-bottom: 5px solid #00a2ff;
     text-align: center;
     font-size: 5rem;
     font-weight: 100;
     font-family: 'Pacifico', cursive;
-    text-shadow: 3px 3px 0 #F3C010;
+    text-shadow: 3px 3px 0 #00a2ff;
   }
   
   .voiceinator input,
@@ -68,19 +68,15 @@ html {
     height: 20rem;
   }
   
-  /* input[type="select"] {
-  
-  } */
-  
   .voiceinator button {
-    background: #ffc600;
+    background: #00a2ff;
     border: 0;
     width: 49%;
     float: left;
     font-family: 'Pacifico', cursive;
     margin-bottom: 0;
     font-size: 2rem;
-    border-bottom: 5px solid #F3C010;
+    border-bottom: 5px solid #00a2ff;
     cursor: pointer;
     position: relative;
   }
